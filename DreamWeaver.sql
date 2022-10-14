@@ -159,6 +159,7 @@ INSERT INTO MemberShip VALUES (913,5000,'C',5,444);
 INSERT INTO MemberShip VALUES (914,1000,'A',20,222);
 INSERT INTO MemberShip VALUES (919,NULL,'D',0,555);
 
+SELECT * FROM Product_Customers
 --Tạo dữ liệu hóa đơn :
 
 INSERT INTO Product_Customers  VALUES (11001234,'2021-12-07','5090','222',1000);
@@ -167,3 +168,39 @@ INSERT INTO Product_Customers  VALUES (11003456,'2019-12-06','5666','111',1000);
 INSERT INTO Product_Customers  VALUES (11004321,'2021-03-01','5555','555',800);
 INSERT INTO Product_Customers  VALUES (11005432,'2021-11-24','8666','111',1600);
 INSERT INTO Product_Customers  VALUES (11006543,'2021-11-13','9666','222',1600);
+
+-- Tạo dữ liệu cho Collections:
+INSERT INTO Collections VALUES (224532,'Prada oi','2019-10-20',5100);
+INSERT INTO Collections VALUES (1,'Prada oi','202-10-20',5111);
+INSERT INTO Collections VALUES (1,'Prada oi','2022-10-20',5222);
+
+INSERT INTO Collections VALUES (2,'Zara','2022-11-20',6090);
+INSERT INTO Collections VALUES (2,'Zara','2022-11-20',6111);
+INSERT INTO Collections VALUES (2,'Zara','2022-11-20',6222);
+
+INSERT INTO Collections VALUES (3,'Gucci','2022-12-20',8090);
+INSERT INTO Collections VALUES (3,'Gucci','2022-12-20',8222);
+INSERT INTO Collections VALUES (3,'Gucci','2022-12-20',8314);
+
+-- Tạo dữ liệu cho Sales:
+
+INSERT INTO Sales VALUES (11,'Giờ vàng',2022-10-15,1119,149,5555);
+INSERT INTO Sales VALUES (12,'Giờ vàng',2022-10-15,2999,129,6555);
+INSERT INTO Sales VALUES (13,'Giờ vàng',2022-10-15,5999,99,8241);
+
+INSERT INTO Sales VALUES (14,'Tuần lễ vàng',2022-10-22,899,219,9090);
+INSERT INTO Sales VALUES (15,'Tuần lễ vàng',2022-10-22,696,199,8234);
+INSERT INTO Sales VALUES (16,'Tuần lễ vàng',2022-10-22,859,189,7090);
+
+--Tạo dữ liệu cho Employee:
+INSERT INTO Employee VALUES (81,'Đinh Bá Đạt',0968032216,'Ba Đình- HN');
+INSERT INTO Employee VALUES (82,'Vũ Việt Hoàng',0968063221,'Nam Từ Liêm- HN');
+INSERT INTO Employee VALUES (83,'Nguyễn Ngọc Minh Sang',0968016322,'Hoàng Mai- HN');
+INSERT INTO Employee VALUES (84,'Ông Đức Long',0968021632,'Long biên- HN');
+INSERT INTO Employee VALUES (85,'Nguyễn Tuấn Dũng',0968022163,'Hai Bà Trưng- HN');
+-- Tạo Dữ Liệu cho Salary( 
+INSERT INTO Salary VALUES (61,1500,2022-10-09,1,81);
+INSERT INTO Salary VALUES (62,1100,2022-10-09,1,82);
+INSERT INTO Salary VALUES (63,1500,2022-10-09,1,83);
+INSERT INTO Salary VALUES (64,1200,2022-10-09,1,84);
+INSERT INTO Salary VALUES (65,1200,2022-10-09,1,85);
